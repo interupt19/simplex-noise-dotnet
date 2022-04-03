@@ -3,12 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.21
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simplex-noise-dotnet", "simplex-noise-dotnet\simplex-noise-dotnet.csproj", "{238EBFA5-A559-45F2-94FF-41AE9C5E657C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simplex-noise-dotnet-tests", "simplex-noise-dotnet-tests\simplex-noise-dotnet-tests.csproj", "{754A9CDF-334E-4284-892D-47CC18571621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{238EBFA5-A559-45F2-94FF-41AE9C5E657C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238EBFA5-A559-45F2-94FF-41AE9C5E657C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238EBFA5-A559-45F2-94FF-41AE9C5E657C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238EBFA5-A559-45F2-94FF-41AE9C5E657C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754A9CDF-334E-4284-892D-47CC18571621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754A9CDF-334E-4284-892D-47CC18571621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754A9CDF-334E-4284-892D-47CC18571621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754A9CDF-334E-4284-892D-47CC18571621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
